@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/db.php';
 
-// (Opcional) contar registros para mostrar
+
 $total = (int) $pdo->query("SELECT COUNT(*) FROM contactos")->fetchColumn();
 ?>
 <!DOCTYPE html>
